@@ -1,0 +1,112 @@
+.div2{
+    display: flex;
+    justify-content: flex-end;
+}
+.div2 a {
+    color: rgb(154, 145, 130);
+}
+.div2 a.buyTickets{
+    color: rgb(43, 109, 61);
+}
+nav div.div1{
+    display: flex;
+   justify-content:flex-start;  
+}
+#navbarNav{
+    align-items:end;
+}
+#imgCodoaCodo{
+    max-width: 100px;
+    max-height: 100px;
+    padding: 0;
+    margin: 0;
+}
+    
+nav{
+    background-color: rgb(53, 58, 64);
+
+}
+.active {
+    color: white;
+}
+.myNavbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primerImagen{
+    background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../imagenes_integrador_front/ba1.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+    height:850px;
+ 
+    
+    color: aliceblue;
+    position: relative;
+}
+.container-fluid{
+    display: flex;
+    justify-content: end;
+}
+.box2{
+    position: absolute;
+    bottom: 351px;
+    right: 177px;
+    text-align: end;
+    width: 497px;
+}
+div button.btn.btn-secondary{
+    background-color: rgba(0,0,0,0);
+}
+#titulo{
+    text-align: center;
+}
+#titulo b {
+    font-size: xx-large;
+}
+#cards{
+    gap: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#info{
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#honolulu{
+    width: 50%;
+    flex-basis: 0;
+}
+.caja2{
+    background-color: rgb(53, 58, 64);
+    padding-left: 15px;
+    padding-top:15px ;
+}
+#casilleros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#formulario{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 60%;
+    margin: auto;
+}
+footer{
+    background-color: #215362;
+    color: white;
+}
+#pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
